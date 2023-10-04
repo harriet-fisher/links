@@ -1,1 +1,112 @@
-<h>My Link in Bio</h>
+<!DOCTYPE html>
+
+<head>
+    <title>Link in Bio</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 40px;
+        background-color: #fffffe;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .container {
+        text-align: center;
+      }
+      
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #bae8e8;
+      }
+      
+      .name {
+        color: #252f56;
+        margin-top: 10px;
+      }
+      
+      .social-icons a {
+        color: #ffd803;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+      
+      .links .link {
+        background-color: #bae8e8;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      
+      .links .link a {
+        color: #ffffff;
+        display: flex;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-grow: 1;
+        justify-content: flex-start;
+      }
+      
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 4px solid #ffd803;
+        object-fit: cover;
+      }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="profile-pic.jpeg" alt="Harriet Fisher headshot" class="banner-image">
+        </div>
+
+        <h1 class="name">Harriet Fisher</h1>
+
+        <div class="social-icons">
+    
+          <a href="https://www.linkedin.com/in/harriet-fisher/" target="_blank">
+            LinkedIn
+          </a>
+    
+          <a href="https://www.instagram.com/harriet_fisher/" target="_blank">
+            Instagram
+          </a>
+    
+          <a href="https://harrietfisher.myportfolio.com" target="_blank">
+            Portfolio
+          </a>
+        </div>
+
+        <div class="links">
+          <div class="link">
+            <img src="/thumbnails/hci-ss.png" alt="HCI SS" class="thumbnail">
+            <a href="https://hciintro.plopes.org/wiki/doku.php?id=start" target="_blank">
+                <h4>Intro to HCI Wiki Page</h4>
+            </a>
+          </div>
+
+          <div class="link">
+            <img src="/thumbnails/basics_compose_lg.jpg" alt="mail SS" class="thumbnail">
+            <a href="mailto:harrietfisher@uchicago.edu" target="_blank">
+                <h4>Send me an Email</h4>
+            </a>
+          </div>
+        </div>
+    </div>
+</body>
+
+</html>
